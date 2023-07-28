@@ -20,7 +20,7 @@
   --logo-second-color: #f4f4fd;
 }
 
-a {
+a:link {
   text-decoration: none;
 }
 .list {
@@ -29,20 +29,21 @@ a {
 body {
   font-family: "Roboto", sans-serif;
   color: var(--secondary-color);
+  background-color: #ffffff;
 }
 
 /* Logo */
-.logo-first-part {
-  color: var(--logo-color);
-  font-family: Raleway;
-  font-size: 18px;
+.logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
-  line-height: 1.16;
-  letter-spacing: 0.54px;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--logo-color);
 }
 
-.logo-second-part {
+.logo-part {
   color: var(--brand-color);
   font-family: Raleway;
   font-size: 18px;
@@ -57,8 +58,9 @@ body {
   color: var(--brand-color);
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.16;
+  line-height: 1.5;
   letter-spacing: 0.32px;
+  font-style: normal;
 }
 
 .nav-list-item {
@@ -71,10 +73,10 @@ body {
 
 /* Address */
 .address-list {
-  color: var(--brand-color);
+  color: var(--secondary-color);
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.16;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -92,8 +94,6 @@ body {
 /* Hero */
 .hero {
   background: var(--brand-color);
-  width: 1440px;
-  height: 600px;
   flex-shrink: 0;
 }
 
@@ -104,16 +104,9 @@ body {
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 1.12px;
-  padding-top: 188px;
 }
 .hero-btn {
-  border-radius: 4px;
   background: var(--logo-color);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
 }
 .hero-btn-text {
   color: #ffffff;
@@ -159,11 +152,7 @@ body {
 
 /* Filter */
 .filter-item {
-  display: flex;
-  padding: 12px 24px;
   justify-content: center;
-  align-items: center;
-  border-radius: 4px;
   border: 1px solid #e7e9fc;
   background: #f4f4fd;
   cursor: pointer;
@@ -171,20 +160,12 @@ body {
 
 .filter-item:hover,
 .filter-item:focus {
-  display: flex;
-  padding: 12px 24px;
-  align-items: flex-start;
-  border-radius: 4px;
   background: var(--action-color);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
 .footer {
   background-color: var(--brand-color);
-  width: 1440px;
-  height: 312px;
   flex-shrink: 0;
 }
 

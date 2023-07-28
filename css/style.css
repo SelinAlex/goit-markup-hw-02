@@ -20,7 +20,7 @@
   --logo-second-color: #f4f4fd;
 }
 
-a:link {
+a {
   text-decoration: none;
 }
 .list {
@@ -54,6 +54,9 @@ body {
 }
 
 /* Nav */
+.link {
+  text-decoration: none;
+}
 .nav-list {
   color: var(--brand-color);
   font-size: 16px;
@@ -78,6 +81,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  font-style: normal;
 }
 
 .address-list-item {

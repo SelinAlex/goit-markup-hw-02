@@ -75,6 +75,9 @@ body {
 }
 
 /* Address */
+.address {
+  font-style: normal;
+}
 .address-list {
   color: var(--secondary-color);
   font-size: 16px;
@@ -85,7 +88,7 @@ body {
 }
 
 .address-list-item {
-  color: var(--brand-color);
+  color: #434455;
   font-style: initial;
 }
 .address-list-item:hover,
@@ -117,6 +120,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  font-weight: 500;
 }
 .hero-btn-text {
   color: #ffffff;

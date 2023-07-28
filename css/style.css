@@ -43,7 +43,7 @@ body {
   color: var(--logo-color);
 }
 
-.link-part {
+.logo-part {
   color: var(--brand-color);
   font-family: Raleway;
   font-size: 18px;

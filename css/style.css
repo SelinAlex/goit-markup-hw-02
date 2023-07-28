@@ -172,7 +172,7 @@ body {
 }
 
 .logo-second-part-footer {
-  color: var(--logo-second-color);
+  color: var(--brand-color);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.16;

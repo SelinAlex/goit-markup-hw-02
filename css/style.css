@@ -142,9 +142,10 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.07;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 
 .header-three {
@@ -167,6 +168,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+/* Team-section */
+.team-section {
+  background-color: var(--logo-second-color);
+}
+.team-list-item {
+  background-color: #ffffff;
 }
 
 /* Filter */
